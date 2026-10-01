@@ -153,6 +153,16 @@ boundary as pagelets.
 
 Starry Lake has a standard page size of 4K to be mapped upon equally sized physical memory frames.
 
+== Platform Memory Map
+
+This section describes the platform memory map:
+
+```
+0x000000000000 - 0x000000002000  : Boot Rom
+0x000000002000 - 0x000000005000  : Reserved
+0x000000005000 - 0x000000105000  : System-level-cache
+```
+
 = Instruction-set Architecture
 
 This guide describes the AT Instruction-Set-Architecture for APTEL silicon, developers of system software
