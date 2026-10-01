@@ -163,6 +163,11 @@ This section describes the platform memory map:
 0x000000005000 - 0x000000105000  : System-level-cache
 ```
 
+== Processor Reset State
+
+Upon reset, the processor is to initialize G0-G6, SP, FP, RA, A0-A7, LST, TLS and PC to zero. The program counter (PC)
+starting at zero begins execution in the platform boot ROM in which platform firmware takes control in machine mode.
+
 = Instruction-set Architecture
 
 This guide describes the AT Instruction-Set-Architecture for APTEL silicon, developers of system software
@@ -249,8 +254,9 @@ WRMSR    Write MSR w/ ID in G0 from G1 0x05         [A]
 ------------------------------------------------------------
 ```
 
-=== Instruction types
+#pagebreak()
 
+=== Instruction types
 
 *A-type instructions:*
 
