@@ -277,11 +277,11 @@ MSB               LSB
 
 ```
 
-31:16        15:8         7:0
------------------------------
-IMM           RD       OPCODE
------------------------------
-MSB                       LSB
+31:18       17:13     12:8         7:0
+---------------------------------------
+IMM         RS1         RD       OPCODE
+---------------------------------------
+MSB                                 LSB
 ```
 
-Where RD is the destination register and IMM is a 16-bit immediate value.
+Where RD is the destination register and IMM is a 14-bit immediate value.
