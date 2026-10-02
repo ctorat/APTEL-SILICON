@@ -272,3 +272,16 @@ RSVD           OPCODE
 ---------------------
 MSB               LSB
 ```
+
+*B-type instructions:*
+
+```
+
+31:16        15:8         7:0
+-----------------------------
+IMM           RD       OPCODE
+-----------------------------
+MSB                       LSB
+```
+
+Where RD is the destination register and IMM is a 16-bit immediate value.
