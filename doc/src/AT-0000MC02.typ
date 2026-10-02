@@ -210,6 +210,7 @@ A6   :  Argument register 6        : 0x10
 A7   :  Argument register 7        : 0x11
 LST  :  Local state pointer        : 0x12
 TLS  :  Thread local storage       : 0x13
+PC   :  Program counter            : 0x14
 ------------------------------------------
 ```
 
