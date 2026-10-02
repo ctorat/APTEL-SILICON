@@ -255,6 +255,7 @@ WFI      Wait-for-interrupt; halt      0x02         [A]
 SPW      Spin-wait hint                0x03         [A]
 RDMSR    Read MSR w/ ID in G0 to G1    0x04         [A]
 WRMSR    Write MSR w/ ID in G0 from G1 0x05         [A]
+ADDI     Add immediate                 0x06         [B]
 ------------------------------------------------------------
 ```
 
