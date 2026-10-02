@@ -185,6 +185,8 @@ are encouraged to review this section and grasp a firm understanding.
 
 ATISA compliant silicon is to implement the registers that are listed below:
 
+#pagebreak()
+
 ```
 NAME    PURPOSE                      ID
 ------------------------------------------
