@@ -7,6 +7,7 @@
       columns: (1fr, auto),
       align: (left + horizon, right + horizon),
       text(weight: "bold", size: 12pt, fill: rgb("1a1a1a"))[Apollo Telephone Laboratories],
+      image("assets/logo.png", height: 2.5em)
     )
     #v(-0.2cm)
     #line(length: 100%, stroke: 0.5pt + gray)
